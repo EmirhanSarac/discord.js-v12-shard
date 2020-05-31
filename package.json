@@ -1,0 +1,15 @@
+{
+  "name": "discord.js v12 shard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "shard.js",
+  "scripts": {
+    "test": "node shard.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.0.2",
+  }
+}
