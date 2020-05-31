@@ -1,12 +1,12 @@
 const { ShardingManager } = require('discord.js');
 
-const manager = new ShardingManager('./server.js', { //main dosyanızı yazın!
+const bumbe = new ShardingManager('./server.js', { //main dosyanızı yazın!
 	totalShards: 2, //Auto yazılabilir veya farklı bir sayı yazabilirsiniz.
     token: "TOKEN" //Tokeninizi giriniz
 });
-manager.spawn();
+bumbe.spawn();
 
-manager.on('shardCreate', shard => {
+bumbe.on('shardCreate', shard => {
     console.log(`${shard.id} İDli shard başlatıldı!`);
 });
 
